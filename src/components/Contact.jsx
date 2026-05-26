@@ -29,39 +29,41 @@ export default function Contact({ t }) {
    * =============================================
    */
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const form = e.target;
-    // Descomente e substitua YOUR_FORM_ID para ativar:
-    // await fetch("https://formspree.io/f/YOUR_FORM_ID", {
-    //   method: "POST",
-    //   body: new FormData(form),
-    //   headers: { Accept: "application/json" },
-    // });
-    setSent(true);
-    form.reset();
-    setTimeout(() => setSent(false), 4000);
-  };
+  e.preventDefault();
 
+  const form = e.target;
+
+  try {
+    const response = await fetch("https://formspree.io/f/mojbkkja", {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      setSent(true);
+      form.reset();
+
+      setTimeout(() => setSent(false), 4000);
+    }
+  } catch (error) {
+    console.error(error);
+    alert("Erro ao enviar mensagem.");
+  }
+};
   const inputStyle = {
     width: "100%", background: "rgba(255,255,255,0.04)",
     border: "1px solid rgba(184,184,199,0.15)", borderRadius: 8,
     padding: "13px 16px", color: "var(--white)", fontSize: 14,
     outline: "none", transition: "border-color 0.2s", fontFamily: "inherit",
   };
-
-  /* 
-   * =============================================
-   * COMO PERSONALIZAR LINKS DE CONTATO:
-   * Substitua os valores de href abaixo pelos seus:
-   * - email: mailto:seuemail@gmail.com
-   * - linkedin: https://linkedin.com/in/seu-perfil
-   * - github: https://github.com/seu-usuario
-   * =============================================
-   */
+  
   const socials = [
-    { icon: <Mail size={18} />, label: t.contact.email_label, value: "seu@email.com", href: "mailto:seu@email.com" },
-    { icon: <Link size={18} />, label: t.contact.linkedin_label, value: "linkedin.com/in/cadu", href: "https://linkedin.com" },
-    { icon: <Link2 size={18} />, label: t.contact.github_label, value: "github.com/cadu", href: "https://github.com" },
+    { icon: <Mail size={18} />, label: t.contact.email_label, value: "cadupaiva629@gmail.com", href: "mailto:cadupaiva629@gmail.com" },
+    { icon: <Link size={18} />, label: t.contact.linkedin_label, value: "https://www.linkedin.com/in/carlos-paiva-6a29a029b/", href: "https://www.linkedin.com/in/carlos-paiva-6a29a029b/" },
+    { icon: <Link2 size={18} />, label: t.contact.github_label, value: "https://github.com/CaduUuZ", href: "https://github.com/CaduUuZ" },
   ];
 
   return (

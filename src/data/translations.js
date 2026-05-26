@@ -50,7 +50,7 @@ export const translations = {
           description:
             "Sistema completo de chamados técnicos com autenticação, dashboard, níveis de prioridade e gerenciamento de tickets. Inspirado na experiência real de suporte multilíngue.",
           stack: ["React", "Node.js", "MySQL", "JWT"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/NexusDesk",
           demo: "#",
         },
         {
@@ -59,17 +59,32 @@ export const translations = {
           description:
             "Dashboard financeiro com controle de entradas e saídas, gráficos interativos, autenticação JWT e relatórios por período.",
           stack: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/FinanceSystem",
           demo: "#",
         },
         {
-          id: 3,
-          title: "Sistema de Laboratório",
-          description:
-            "Gestão completa de laudos laboratoriais, cadastro de pacientes, controle de exames e emissão de resultados com painel administrativo.",
-          stack: ["Java", "Spring Boot", "MySQL", "React"],
-          github: "#",
-          demo: "#",
+        id: 3,
+        title: "Sistema de Laboratório",
+        description: "Sistema completo para gerenciamento de pacientes, exames e dashboards laboratoriais.",
+        
+        stack: [
+          "PHP",
+          "MySQL",
+          "Bootstrap",
+          "Chart.js"
+        ],
+
+        images: [
+          "/lab/1.png",
+          "/lab/2.png",
+          "/lab/3.png",
+          "/lab/4.png",
+          "/lab/5.png",
+          "/lab/6.png",
+        ],
+
+        github: "https://github.com/CaduUuZ/DevMotors",
+        demo: "https://demo.com",
         },
         {
           id: 4,
@@ -77,7 +92,7 @@ export const translations = {
           description:
             "Aplicativo mobile para controle de hábitos diários com streak, notificações e visualização de progresso semanal.",
           stack: ["React Native", "Node.js", "SQLite"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
         },
       ],
@@ -150,7 +165,7 @@ export const translations = {
           description:
             "Complete ticket management system with authentication, dashboard, priority levels and ticket tracking. Inspired by real multilingual support experience.",
           stack: ["React", "Node.js", "MySQL", "JWT"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/NexusDesk",
           demo: "#",
         },
         {
@@ -159,7 +174,7 @@ export const translations = {
           description:
             "Financial dashboard with income/expense control, interactive charts, JWT authentication and period reports.",
           stack: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/FinanceSystem",
           demo: "#",
         },
         {
@@ -167,9 +182,24 @@ export const translations = {
           title: "Laboratory System",
           description:
             "Complete lab report management, patient registration, exam control and results with admin panel.",
-          stack: ["Java", "Spring Boot", "MySQL", "React"],
-          github: "#",
-          demo: "#",
+          stack: [
+          "PHP",
+          "MySQL",
+          "Bootstrap",
+          "Chart.js"
+        ],
+
+        images: [
+          "/lab/1.png",
+          "/lab/2.png",
+          "/lab/3.png",
+          "/lab/4.png",
+          "/lab/5.png",
+          "/lab/6.png",
+        ],
+
+        github: "https://github.com/CaduUuZ/DevMotors",
+        demo: "https://demo.com",
         },
         {
           id: 4,
@@ -177,7 +207,7 @@ export const translations = {
           description:
             "Mobile app for daily habit tracking with streak, notifications and weekly progress visualization.",
           stack: ["React Native", "Node.js", "SQLite"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
         },
       ],
@@ -250,7 +280,7 @@ export const translations = {
           description:
             "Sistema completo de tickets técnicos con autenticación, dashboard, niveles de prioridad y gestión de tickets. Inspirado en experiencia real de soporte multilingüe.",
           stack: ["React", "Node.js", "MySQL", "JWT"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/NexusDesk",
           demo: "#",
         },
         {
@@ -259,7 +289,7 @@ export const translations = {
           description:
             "Dashboard financiero con control de ingresos y gastos, gráficos interactivos, autenticación JWT e informes por período.",
           stack: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/FinanceSystem",
           demo: "#",
         },
         {
@@ -267,9 +297,24 @@ export const translations = {
           title: "Sistema de Laboratorio",
           description:
             "Gestión completa de informes de laboratorio, registro de pacientes, control de exámenes y resultados con panel administrativo.",
-          stack: ["Java", "Spring Boot", "MySQL", "React"],
-          github: "#",
-          demo: "#",
+          stack: [
+          "PHP",
+          "MySQL",
+          "Bootstrap",
+          "Chart.js"
+        ],
+
+        images: [
+          "/lab/1.png",
+          "/lab/2.png",
+          "/lab/3.png",
+          "/lab/4.png",
+          "/lab/5.png",
+          "/lab/6.png",
+        ],
+
+        github: "https://github.com/CaduUuZ/DevMotors",
+        demo: "https://demo.com",
         },
         {
           id: 4,
@@ -277,7 +322,7 @@ export const translations = {
           description:
             "Aplicación móvil para control de hábitos diarios con racha, notificaciones y visualización del progreso semanal.",
           stack: ["React Native", "Node.js", "SQLite"],
-          github: "#",
+          github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
         },
       ],

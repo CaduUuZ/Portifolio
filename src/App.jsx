@@ -17,7 +17,7 @@ export default function App() {
       <Navbar t={t} lang={lang} setLang={setLang} />
       <main>
         <Hero t={t} />
-        <About t={t} />
+        <About t={t} language={lang} />
         <Skills t={t} />
         <Projects t={t} />
         <Contact t={t} />

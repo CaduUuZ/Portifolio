@@ -18,7 +18,7 @@ export const translations = {
       p1: "Desenvolvedor apaixonado por tecnologia, com experiência em suporte internacional e desenvolvimento de aplicações web utilizando React, Node.js, Java e bancos de dados relacionais.",
       p2: "Atualmente atuo com suporte técnico multilíngue para mais de 10 países, enquanto desenvolvo projetos full-stack focados em performance, usabilidade e escalabilidade.",
       p3: "Falo português, inglês e espanhol — o que me permite colaborar e entregar em ambientes globais.",
-      languages: "🌎 Português · English · Español",
+      languages: "Português · English · Español",
     },
     skills: {
       title: "Stack & Tecnologias",
@@ -67,7 +67,7 @@ export const translations = {
       p1: "Passionate developer with experience in international support and web application development using React, Node.js, Java, and relational databases.",
       p2: "Currently working in multilingual technical support for 10+ countries, while building full-stack projects focused on performance, usability, and scalability.",
       p3: "I speak Portuguese, English, and Spanish — enabling me to collaborate and deliver in global environments.",
-      languages: "🌎 Português · English · Español",
+      languages: "Português · English · Español",
     },
     skills: {
       title: "Stack & Technologies",
@@ -116,7 +116,7 @@ export const translations = {
       p1: "Desarrollador apasionado por la tecnología, con experiencia en soporte internacional y desarrollo de aplicaciones web utilizando React, Node.js, Java y bases de datos relacionales.",
       p2: "Actualmente trabajo en soporte técnico multilingüe para más de 10 países, mientras desarrollo proyectos full-stack enfocados en rendimiento, usabilidad y escalabilidad.",
       p3: "Hablo portugués, inglés y español — lo que me permite colaborar y trabajar en entornos globales.",
-      languages: "🌎 Português · English · Español",
+      languages: "Português · English · Español",
     },
     skills: {
       title: "Stack & Tecnologías",
