@@ -58,9 +58,24 @@ export const translations = {
           title: "Sistema Financeiro",
           description:
             "Dashboard financeiro com controle de entradas e saídas, gráficos interativos, autenticação JWT e relatórios por período.",
-          stack: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-          github: "https://github.com/CaduUuZ/FinanceSystem",
-          demo: "#",
+          stack: [
+              "React", 
+              "Node.js", 
+              "PostgreSQL", 
+              "Chart.js"
+            ],
+
+            images: [
+              "/fin/1.png",
+              "/fin/2.png",
+              "/fin/3.png",
+              "/fin/4.png",
+              "/fin/5.png",
+            ],
+
+            github: "https://github.com/CaduUuZ/FinanceSystem",
+            
+            demo: "#",
         },
         {
         id: 3,
@@ -70,8 +85,9 @@ export const translations = {
         stack: [
           "PHP",
           "MySQL",
-          "Bootstrap",
-          "Chart.js"
+          "HTML/CSS",
+          "JavaScript",
+          "Bootstrap"
         ],
 
         images: [
@@ -111,6 +127,9 @@ export const translations = {
           demo: "#",
         },
       ],
+
+      moreProjects: "E muito mais projetos disponíveis no meu GitHub.",
+      visitGithub: "Visitar GitHub",
     },
     contact: {
       title: "Contato",
@@ -188,9 +207,24 @@ export const translations = {
           title: "Financial System",
           description:
             "Financial dashboard with income/expense control, interactive charts, JWT authentication and period reports.",
-          stack: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-          github: "https://github.com/CaduUuZ/FinanceSystem",
-          demo: "#",
+          stack: [
+              "React", 
+              "Node.js", 
+              "PostgreSQL", 
+              "Chart.js"
+            ],
+
+            images: [
+              "/fin/1.png",
+              "/fin/2.png",
+              "/fin/3.png",
+              "/fin/4.png",
+              "/fin/5.png",
+            ],
+
+            github: "https://github.com/CaduUuZ/FinanceSystem",
+            
+            demo: "#",
         },
         {
           id: 3,
@@ -200,8 +234,9 @@ export const translations = {
           stack: [
           "PHP",
           "MySQL",
-          "Bootstrap",
-          "Chart.js"
+          "HTML/CSS",
+          "JavaScript",
+          "Bootstrap"
         ],
 
         images: [
@@ -240,6 +275,9 @@ export const translations = {
           demo: "#",
         },
       ],
+
+      moreProjects: "And many more projects available on my GitHub.",
+      visitGithub: "Visit GitHub",
     },
     contact: {
       title: "Contact",
@@ -334,7 +372,7 @@ export const translations = {
             ],
 
             github: "https://github.com/CaduUuZ/FinanceSystem",
-            
+
             demo: "#",
         },
         {
@@ -345,8 +383,9 @@ export const translations = {
           stack: [
             "PHP",
             "MySQL",
-            "Bootstrap",
-            "Chart.js"
+            "HTML/CSS",
+            "JavaScript",
+            "Bootstrap"
         ],
 
         images: [
@@ -385,6 +424,9 @@ export const translations = {
           demo: "#",
         },
       ],
+
+      moreProjects: "Y muchos más proyectos disponibles en mi GitHub.",
+      visitGithub: "Visitar GitHub",
     },
     contact: {
       title: "Contacto",

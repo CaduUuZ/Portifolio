@@ -74,6 +74,61 @@ export default function Projects({ t }) {
             />
           ))}
         </div>
+        {/* MORE PROJECTS */}
+        <div
+          style={{
+            marginTop: 50,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 18,
+            textAlign: "center",
+          }}
+        >
+          <p
+            style={{
+              color: "var(--gray)",
+              fontSize: 15,
+              letterSpacing: 0.3,
+            }}
+          >
+            {t.projects.moreProjects}
+          </p>
+
+          <a
+            href="https://github.com/CaduUuZ"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 10,
+              background: "linear-gradient(135deg, #24292e, #121417)",
+              color: "#fff",
+              padding: "14px 28px",
+              borderRadius: 10,
+              textDecoration: "none",
+              fontWeight: 700,
+              letterSpacing: 1,
+              textTransform: "uppercase",
+              fontSize: 12,
+              border: "1px solid rgba(255,255,255,0.08)",
+              transition: "all 0.25s ease",
+              boxShadow: "0 10px 30px rgba(0,0,0,0.25)",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-2px)";
+              e.currentTarget.style.opacity = "0.9";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.opacity = "1";
+            }}
+          >
+            <Link2 size={16} />
+            {t.projects.visitGithub}
+          </a>
+        </div>
       </div>
 
       <style>{`
@@ -221,7 +276,7 @@ function ProjectCard({ project, t, index }) {
           </div>
         </div>
       )}
-
+      
       {/* CONTENT */}
       <div style={{ padding: 24 }}>
         {/* TITLE */}
