@@ -84,14 +84,29 @@ export const translations = {
         ],
 
         github: "https://github.com/CaduUuZ/DevMotors",
-        demo: "https://demo.com",
+        demo: "#",
         },
         {
           id: 4,
           title: "App Mobile — Hábitos",
           description:
             "Aplicativo mobile para controle de hábitos diários com streak, notificações e visualização de progresso semanal.",
-          stack: ["React Native", "Node.js", "SQLite"],
+          
+            stack: [
+              "React Native",
+              "Node.js",
+              "Tailwind", 
+              "babel"
+            ],
+
+            images: [
+          "/hab/1.png",
+          "/hab/2.png",
+          "/hab/3.png",
+          "/hab/4.png",
+          "/hab/5.png",
+          "/hab/6.png",
+          ],
           github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
         },
@@ -206,7 +221,21 @@ export const translations = {
           title: "Mobile App — Habits",
           description:
             "Mobile app for daily habit tracking with streak, notifications and weekly progress visualization.",
-          stack: ["React Native", "Node.js", "SQLite"],
+          stack: [
+              "React Native",
+              "Node.js",
+              "Tailwind", 
+              "babel"
+            ],
+
+            images: [
+          "/hab/1.png",
+          "/hab/2.png",
+          "/hab/3.png",
+          "/hab/4.png",
+          "/hab/5.png",
+          "/hab/6.png",
+          ],
           github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
         },
@@ -321,7 +350,21 @@ export const translations = {
           title: "App Móvil — Hábitos",
           description:
             "Aplicación móvil para control de hábitos diarios con racha, notificaciones y visualización del progreso semanal.",
-          stack: ["React Native", "Node.js", "SQLite"],
+          stack: [
+              "React Native",
+              "Node.js",
+              "Tailwind", 
+              "babel"
+            ],
+
+            images: [
+          "/hab/1.png",
+          "/hab/2.png",
+          "/hab/3.png",
+          "/hab/4.png",
+          "/hab/5.png",
+          "/hab/6.png",
+          ],
           github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
         },
