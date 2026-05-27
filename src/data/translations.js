@@ -317,9 +317,25 @@ export const translations = {
           title: "Sistema Financiero",
           description:
             "Dashboard financiero con control de ingresos y gastos, gráficos interactivos, autenticación JWT e informes por período.",
-          stack: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-          github: "https://github.com/CaduUuZ/FinanceSystem",
-          demo: "#",
+          
+            stack: [
+              "React", 
+              "Node.js", 
+              "PostgreSQL", 
+              "Chart.js"
+            ],
+
+            images: [
+              "/fin/1.png",
+              "/fin/2.png",
+              "/fin/3.png",
+              "/fin/4.png",
+              "/fin/5.png",
+            ],
+
+            github: "https://github.com/CaduUuZ/FinanceSystem",
+            
+            demo: "#",
         },
         {
           id: 3,
@@ -327,10 +343,10 @@ export const translations = {
           description:
             "Gestión completa de informes de laboratorio, registro de pacientes, control de exámenes y resultados con panel administrativo.",
           stack: [
-          "PHP",
-          "MySQL",
-          "Bootstrap",
-          "Chart.js"
+            "PHP",
+            "MySQL",
+            "Bootstrap",
+            "Chart.js"
         ],
 
         images: [
