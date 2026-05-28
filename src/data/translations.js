@@ -153,9 +153,9 @@ export const translations = {
 
         {
           id: 6,
-          title: "Sistema de Mercado",
+          title: "Sistema de Ecommerce",
           description:
-            "Sistema de mercado sendo aprimorado. Projeto com foco no back, validação de tokens e etc.",
+            "Sistema de ecommerce sendo aprimorado. Projeto com foco no back, validação de tokens e etc.",
           
             stack: [
               "Next.js",
@@ -170,8 +170,6 @@ export const translations = {
           "/mar/2.png",
           "/mar/3.png",
           "/mar/4.png",
-          "/mar/5.png",
-          "/mar/6.png",
           ],
           github: "https://github.com/CaduUuZ/SistemaFullStack",
           demo: "sistema-full-stack.vercel.app/login",
@@ -351,9 +349,9 @@ export const translations = {
 
         {
           id: 6,
-          title: "Market System",
+          title: "Ecommerce System",
           description:
-            "Market system being improved. Project focused on backend, token validation, etc.",
+            "Ecommerce system being improved. Project focused on backend, token validation, etc.",
           
             stack: [
               "Next.js",
@@ -368,8 +366,6 @@ export const translations = {
           "/mar/2.png",
           "/mar/3.png",
           "/mar/4.png",
-          "/mar/5.png",
-          "/mar/6.png",
           ],
           github: "https://github.com/CaduUuZ/SistemaFullStack",
           demo: "sistema-full-stack.vercel.app/login",
@@ -546,14 +542,14 @@ export const translations = {
           ],
           github: "https://github.com/CaduUuZ/QuickFood",
           demo: "#",
-          
+
         },
 
         {
           id: 6,
-          title: "Sistema de Mercado",
+          title: "Sistema de Ecommerce",
           description:
-            "Sistema de mercado en proceso de mejora. Proyecto con enfoque en backend, validación de tokens, etc.",
+            "Sistema de ecommerce en proceso de mejora. Proyecto con enfoque en backend, validación de tokens, etc.",
           
             stack: [
               "Next.js",
@@ -568,8 +564,6 @@ export const translations = {
           "/mar/2.png",
           "/mar/3.png",
           "/mar/4.png",
-          "/mar/5.png",
-          "/mar/6.png",
           ],
 
           github: "shttps://github.com/CaduUuZ/SistemaFullStack",
