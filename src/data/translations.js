@@ -49,7 +49,22 @@ export const translations = {
           title: "Sistema de Service Desk",
           description:
             "Sistema completo de chamados técnicos com autenticação, dashboard, níveis de prioridade e gerenciamento de tickets. Inspirado na experiência real de suporte multilíngue.",
-          stack: ["React", "Node.js", "MySQL", "JWT"],
+          stack: [
+            "React", 
+            "Node.js", 
+            "MySQL", 
+            "JWT"
+          ],
+
+          images: [
+            "/desk/1.png",
+            "/desk/2.png",
+            "/desk/3.png",
+            "/desk/4.png",
+            "/desk/5.png",
+            "/desk/6.png",
+          ],
+          
           github: "https://github.com/CaduUuZ/NexusDesk",
           demo: "#",
         },
@@ -246,7 +261,22 @@ export const translations = {
           title: "Service Desk System",
           description:
             "Complete ticket management system with authentication, dashboard, priority levels and ticket tracking. Inspired by real multilingual support experience.",
-          stack: ["React", "Node.js", "MySQL", "JWT"],
+          stack: [
+            "React", 
+            "Node.js", 
+            "MySQL", 
+            "JWT"
+          ],
+
+          images: [
+            "/desk/1.png",
+            "/desk/2.png",
+            "/desk/3.png",
+            "/desk/4.png",
+            "/desk/5.png",
+            "/desk/6.png",
+          ],
+
           github: "https://github.com/CaduUuZ/NexusDesk",
           demo: "#",
         },
@@ -442,7 +472,22 @@ export const translations = {
           title: "Sistema de Service Desk",
           description:
             "Sistema completo de tickets técnicos con autenticación, dashboard, niveles de prioridad y gestión de tickets. Inspirado en experiencia real de soporte multilingüe.",
-          stack: ["React", "Node.js", "MySQL", "JWT"],
+          stack: [
+            "React", 
+            "Node.js", 
+            "MySQL", 
+            "JWT"
+          ],
+
+          images: [
+            "/desk/1.png",
+            "/desk/2.png",
+            "/desk/3.png",
+            "/desk/4.png",
+            "/desk/5.png",
+            "/desk/6.png",
+          ],
+
           github: "https://github.com/CaduUuZ/NexusDesk",
           demo: "#",
         },
