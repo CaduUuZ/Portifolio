@@ -126,6 +126,56 @@ export const translations = {
           github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
         },
+
+        {
+          id: 5,
+          title: "QuickFood",
+          description:
+            "Sistma inspirado no app iFood, com funcionalidades de cardápio, carrinho, checkout e painel administrativo.",
+          
+            stack: [
+              "Typescript",
+              "Vite",
+              "CSS", 
+            ],
+
+            images: [
+          "/ifood/1.png",
+          "/ifood/2.png",
+          "/ifood/3.png",
+          "/ifood/4.png",
+          "/ifood/5.png",
+          "/ifood/6.png",
+          ],
+          github: "https://github.com/CaduUuZ/QuickFood",
+          demo: "#",
+        },
+
+        {
+          id: 6,
+          title: "Sistema de Mercado",
+          description:
+            "Sistema de mercado sendo aprimorado. Projeto com foco no back, validação de tokens e etc.",
+          
+            stack: [
+              "Next.js",
+              "Node.js",
+              "Typescript",
+              "Tailwind", 
+              "MongoDB"
+            ],
+
+            images: [
+          "/mar/1.png",
+          "/mar/2.png",
+          "/mar/3.png",
+          "/mar/4.png",
+          "/mar/5.png",
+          "/mar/6.png",
+          ],
+          github: "https://github.com/CaduUuZ/SistemaFullStack",
+          demo: "sistema-full-stack.vercel.app/login",
+        },
       ],
 
       moreProjects: "E muito mais projetos disponíveis no meu GitHub.",
@@ -273,6 +323,56 @@ export const translations = {
           ],
           github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
+        },
+
+        {
+          id: 5,
+          title: "QuickFood",
+          description:
+            "iFood-inspired system with menu, cart, checkout and admin panel functionalities.",
+          
+            stack: [
+              "Typescript",
+              "Vite",
+              "CSS", 
+            ],
+
+            images: [
+          "/ifood/1.png",
+          "/ifood/2.png",
+          "/ifood/3.png",
+          "/ifood/4.png",
+          "/ifood/5.png",
+          "/ifood/6.png",
+          ],
+          github: "https://github.com/CaduUuZ/QuickFood",
+          demo: "#",
+        },
+
+        {
+          id: 6,
+          title: "Market System",
+          description:
+            "Market system being improved. Project focused on backend, token validation, etc.",
+          
+            stack: [
+              "Next.js",
+              "Node.js",
+              "Typescript",
+              "Tailwind", 
+              "MongoDB"
+            ],
+
+            images: [
+          "/mar/1.png",
+          "/mar/2.png",
+          "/mar/3.png",
+          "/mar/4.png",
+          "/mar/5.png",
+          "/mar/6.png",
+          ],
+          github: "https://github.com/CaduUuZ/SistemaFullStack",
+          demo: "sistema-full-stack.vercel.app/login",
         },
       ],
 
@@ -422,6 +522,58 @@ export const translations = {
           ],
           github: "https://github.com/CaduUuZ/HabitsApp",
           demo: "#",
+        },
+
+        {
+          id: 5,
+          title: "QuickFood",
+          description:
+            "Sistema inspirado en iFood, con funcionalidades de menú, carrito, checkout y panel administrativo.",
+
+          stack: [
+              "Typescript",
+              "Vite",
+              "CSS", 
+            ],
+
+            images: [
+          "/ifood/1.png",
+          "/ifood/2.png",
+          "/ifood/3.png",
+          "/ifood/4.png",
+          "/ifood/5.png",
+          "/ifood/6.png",
+          ],
+          github: "https://github.com/CaduUuZ/QuickFood",
+          demo: "#",
+          
+        },
+
+        {
+          id: 6,
+          title: "Sistema de Mercado",
+          description:
+            "Sistema de mercado en proceso de mejora. Proyecto con enfoque en backend, validación de tokens, etc.",
+          
+            stack: [
+              "Next.js",
+              "Node.js",
+              "Typescript",
+              "Tailwind", 
+              "MongoDB"
+            ],
+
+            images: [
+          "/mar/1.png",
+          "/mar/2.png",
+          "/mar/3.png",
+          "/mar/4.png",
+          "/mar/5.png",
+          "/mar/6.png",
+          ],
+
+          github: "shttps://github.com/CaduUuZ/SistemaFullStack",
+          demo: "sistema-full-stack.vercel.app/login",
         },
       ],
 
